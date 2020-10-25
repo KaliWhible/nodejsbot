@@ -32,7 +32,7 @@ client.on('message', (message) => {
   if(message.author.bot) return;
 
   if(message.content == '!재고확인') {
-    return message.reply('재고: 0 R$ / 10,000 ₩ = 1,000 R$ / 지금구입 가능');
+    return message.reply('``재고: 0 R$ / 10,000 ₩ = 1,000 R$ / 지금구입 가능``');
   }
 
   if(message.content.startsWith('!전체공지')) {
