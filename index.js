@@ -38,7 +38,11 @@ client.on('message', (message) => {
    if(message.content == '!가격확인') {
     return message.reply('``10,000 ₩ = 1,000 R$``');
   }
-
+  
+   if(message.content == '!도움말') {
+    return message.reply('``!가격확인 / !재고확인``을 치면 가격과 재고를 확인 하실수 있습니다');
+  }
+  
   if(message.content.startsWith('!전체공지')) {
     if(checkPermission(message)) return
     if(message.member != null) { // 채널에서 공지 쓸 때
