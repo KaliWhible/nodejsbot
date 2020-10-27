@@ -44,7 +44,7 @@ client.on('message', (message) => {
   }
   
   if(message.content == '!구매') {
-    return message.reply('@사이버-와이블#8290에게 DM으로 산다고 말해주세요.');
+    return message.reply('#예약 채널에서  예약하세요');
   }
   
   if(message.content.startsWith('!전체공지')) {
