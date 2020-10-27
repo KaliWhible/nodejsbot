@@ -44,7 +44,7 @@ client.on('message', (message) => {
   }
   
   if(message.content == '!와이블호출') {
-    return message.reply('``@사이버-와이블#8290``');
+    return message.reply('@사이버-와이블#8290');
   }
   
   if(message.content.startsWith('!전체공지')) {
