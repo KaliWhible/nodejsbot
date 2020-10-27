@@ -40,11 +40,11 @@ client.on('message', (message) => {
   }
   
    if(message.content == '!도움말') {
-    return message.reply('``!가격확인 / !재고확인``을 치면 가격과 재고를 확인 하실수 있습니다');
+    return message.reply('``!가격확인 / !재고확인``을 치면 가격과 재고를 확인 하실수 있습니다. 구매를 하시려면 !구매를 해주세요');
   }
   
-  if(message.content == '!와이블호출') {
-    return message.reply('@사이버-와이블#8290');
+  if(message.content == '!구매') {
+    return message.reply('@사이버-와이블#8290에게 DM으로 산다고 말해주세요.');
   }
   
   if(message.content.startsWith('!전체공지')) {
