@@ -17,7 +17,7 @@ client.on("guildMemberAdd", (member) => {
 
   welcomeChannel.send(`<@${newUser.id}> ${welcomeChannelComment}\n`);
 
-  member.addRole(guild.roles.find(role => role.name == "관리자"));
+  member.addRole(guild.roles.find(role => role.name == "비구매자"));
 });
 
 client.on("guildMemberRemove", (member) => {
