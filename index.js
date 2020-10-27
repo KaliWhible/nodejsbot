@@ -43,6 +43,10 @@ client.on('message', (message) => {
     return message.reply('``!가격확인 / !재고확인``을 치면 가격과 재고를 확인 하실수 있습니다');
   }
   
+  if(message.content == '!와이블호출') {
+    return message.reply('``@사이버-와이블#8290``');
+  }
+  
   if(message.content.startsWith('!전체공지')) {
     if(checkPermission(message)) return
     if(message.member != null) { // 채널에서 공지 쓸 때
