@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = process.argv.length == 2 ? process.env.token : "NzY5NDQxMTkxODI5MTc2MzYw.X5PD8w.9Ow3I6IJapL7H8PkjNLejNSpn2w";
+const token = process.argv.length == 2 ? process.env.token : "";
 const moment = require("moment");
 require("moment-duration-format");
 const welcomeChannelName = "채팅방";
