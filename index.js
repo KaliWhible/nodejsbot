@@ -32,7 +32,7 @@ client.on('message', (message) => {
   if(message.author.bot) return;
 
   if(message.content == '!재고확인') {
-    return message.reply('``재고: 10000 R$``');
+    return message.reply('``재고: 10000 로벅스``');
   }
   
    if(message.content == '!가격확인') {
