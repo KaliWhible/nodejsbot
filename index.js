@@ -36,7 +36,7 @@ client.on('message', (message) => {
   }
   
    if(message.content == '!가격확인') {
-    return message.reply('``10,000 ₩ = 1,000 R$``');
+    return message.reply('``10,000 ₩ = 1,200 R$``');
   }
   
    if(message.content == '!도움말') {
